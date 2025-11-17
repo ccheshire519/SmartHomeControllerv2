@@ -32,7 +32,7 @@ namespace SmartHomeController
             get { return status; }
             set { status = value; }
         }
-
+        // Parameterized Constructor
         public SmartDevice(int deviceID, string deviceName)
         {
             this.DeviceID = deviceID;
